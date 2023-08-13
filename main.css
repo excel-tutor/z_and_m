@@ -352,7 +352,7 @@
         left: 15vw;
         /*right: 10vw;*/
         width: 100vw;
-        top: 5vh;
+        top: 3vh;
     }
 
     .caption {
@@ -587,7 +587,7 @@
     left: 10vw;     
     color: black; 
     text-align: center;
-    margin-top: 70px;
+    margin-top: 0px;
     }
 }
 
