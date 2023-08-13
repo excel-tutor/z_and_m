@@ -37,6 +37,11 @@ function onclick_contact_us_button() {
 //        { opacity: '0', top: '100px' },
 //        { opacity: '1', top: '10px' },
 //    ], {fill: "forwards", duration: 1000, easing} );
+const contact_button = document.getElementById('contact_button');
+
+    contact_button.style.background = "white";
+    contact_button.style.color = "black";
+    contact_button.style.transition = "all 0.1s";
     window.location.assign('/contact.html');
 }
 
@@ -60,4 +65,19 @@ function onclick_submit_button() {
     //  else {
     
     //  };
+}
+
+function stop_the_carousel() {
+    var parent_divider = document.getElementById('parent_divider');
+
+    //parent_divider.style.background = "blue";
+    //parent_divider.style.transform = "translate(100px)";
+    //parent_divider.style.animationFillMode = "none";
+    parent_divider.style.animationPlayState = "paused";
+}
+
+function resume_the_carousel() {
+    var parent_divider = document.getElementById('parent_divider');
+
+    parent_divider.style.animationPlayState = "running";
 }
