@@ -2,21 +2,29 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Z&M</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>Z&M</title>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src='main.js'></script>
+    <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
 </head>
 <body onload="carouselScroll();">
-    <img src="/logo.png" style="width: 270px; top: 15vh; position: absolute; left: 42vw; right: 42vw;"/>
+    <img class="logo" src="/images/logo.png" style="width: 270px; top: 15vh; position: absolute; left: 42vw; right: 42vw;"/>
     <p id="header_text">you choose...we source</p>
     <!--<p id="design_symbols">❊❊❊</p>-->
     <div class="underline_top"></div>
     <div class="underline_bottom"></div>
-    <button class="contact-us__button" onclick="onclick_contact_us_button();">Contact us</button>
+    <button id="contact_button" class="contact-us__button" onclick="onclick_contact_us_button();">contact</button>
     <button class="gallery__button">Gallery</button>
-    <p class="caption">Z&M International Ltd is a global apparel sourcing agent in the UK associated directly with a number of recognised garments manufacturers in Bangladesh. The company has developed a strong sourcing network in producing quality garments of various kinds. All of our factories are certified with ISO9001, Wrap, BSCI and Oeko Tex.</p>
+    <pre class="caption">
+Z&M International Ltd is a global apparel sourcing
+agent in the UK associated directly with a number of 
+recognised garments manufacturers in Bangladesh. 
+The company has developed a strong sourcing 
+network in producing quality garments of various 
+kinds. All of our factories are certified with ISO9001, 
+Wrap, BSCI and Oeko Tex.</pre>
     <div style="position: absolute; width: 100vw; height: 70vh; background-color: rgba(0, 0, 0, 0); bottom: -27vh; left: 0px; z-index: 10; transform: rotateY(0);" id="invisible_event_listener"></div>
     <div id="parent_divider" style="width: fit-content; height: fit-content; background-color: transparent;">
     <img class="img1" id="_1" src="/c1.png"/>
@@ -24,6 +32,19 @@
     <img class="img3" id="_3" src="/c2.png"/>
     <img class="img4" id="_4" src="/c3.png"/>
 </div>
+<div onclick="resume_the_carousel();" style="left: 60vw; top: 78.3vh; position: relative; width: 100px; height: 100px;">
+<svg class="bi-play" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+    <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+  </svg>
+</div>
+<div onclick="stop_the_carousel();" style="left: 40vw; top: 64vh; position: relative; width: 100px; height: 100px;">
+  <svg class="bi-stop" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stop" viewBox="0 0 16 16">
+    <path d="M3.5 5A1.5 1.5 0 0 1 5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11V5zM5 4.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5H5z"/>
+  </svg>
+</div>
+<pre style="position: absolute; font-size: 10px; top: 87vh; font-family: 'Quicksand Light'; left: 10vw; color: black; text-align: center;"><span style="font-family: 'Quicksand';">Z&M INTERNATIONAL LIMITED.</span>
+company number: 08035625 vat registration no: 137574786
+</pre>
 <!--<dialog id="query_dialog" open>
     <p id="dialog_title">Send us a query!</p>
 </dialog>-->
