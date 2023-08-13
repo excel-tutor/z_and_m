@@ -1,244 +1,257 @@
 @font-face {
     font-family: 'Salonica';
-    src: url("/fonts/salonica.ttf");
+    src: url("/salonica.ttf");
 }
 
-body {
-    overflow-x: hidden;
-}
-
-#header_text {
-    position: absolute;
-    font-family: 'Salonica';
-    font-size: 120px;
-    left: 36vw;
-    right: 36vw;
-    top: 12vh;
-}
-
-#design_symbols {
-    position: absolute;
-    font-size: 40px;
-    top: 27vh;
-    left: 46vw;
-}
-
-.caption {
-    position: absolute;
-    top: 37vh;
-    font-size: 33px;
-    width: 45vw;
-    left: 25vw;
-    right: 25vw;
-    font-family: 'Calibri';
-    font-weight: 300;
-    text-align: left;
-}
-
-.img1 {
-    position: absolute;
-    height: 57vh;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
-    top: 57vh;
-    left: 1vw;
-}
-
-.img2 {
-    position: absolute;
-    height: 57vh;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
-    top: 57vh;
-    left: 53vw;
-}
-
-.img3 {
-    position: absolute;
-    height: 57vh;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
-    top: 57vh;
-    left: 99vw;
-}
-
-.img4 {
-    position: absolute;
-    height: 57vh;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
-    top: 57vh;
-    left: 148vw;
-}
-
-.underline_top {
-    position: absolute;
-    height: 0.5px;
-    width: 45vw;
-    background: black;
-    left: 24.5vw;
-    top: 38.5vh;
-}
-
-.underline_bottom {
-    position: absolute;
-    height: 0.5px;
-    width: 45vw;
-    background: black;
-    left: 24.5vw;
-    top: 39vh;
-}
-
-.contact-us__button {
-    position: absolute;
-    top: 10px;
-    width: 190px;
-    height: 70px;
-    font-size: 30px;
-    left: 17.1vw;
-    top: 33vh;
-    color: black;
-    background: transparent;
-    outline: none;
-    border: solid black 0.25px;
-    display: block;
-}
-
-.gallery__button {
-    position: absolute;
-    top: 10px;
-    width: 190px;
-    height: 70px;
-    font-size: 30px;
-    right: 22.7vw;
-    top: 33vh;
-    color: black;
-    background: transparent;
-    outline: none;
-    border: solid black 0.25px;
-    display: block;
-}
-
-#query_dialog {
-    position: absolute;
-    width: 50vw;
-    height: 30vh;
-    background-color: white;
-    border: none;
-    outline: none;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Calibri';
-}
-
-#dialog_title {
-    position: absolute;
-    font-size: 40px;
-    left: 530px;
-    top: 1px;
-}
-
-#main_contact_title {
-    position: absolute;
-    top: 10px;
-    left: 20vw;
-    font-size: 30px;
+@font-face {
     font-family: 'Quicksand';
+    src: url("/Quicksand-Regular.ttf");
 }
 
-#query_container {
-    position: absolute;
-    width: 27vw;
-    height: 78vh;
-    background-color: white;
-    border: solid 0.25px black;
-    top: 7vh;
-    left: 20vw;
-    font-family: 'Quicksand';
+@font-face {
+    font-family: 'Quicksand Light';
+    src: url("/quicksand_light.otf");
 }
 
-.name_input_field {
-    position: absolute;
-    height: 40px;
-    width: 13vw;
-    top: 27px;
-    left: 10vw;
-    font-size: 18px;
-    font-family: 'Quicksand';
-    /*font-family: 'Calibri';*/
-}
 
-#name_label {
-    position: absolute;
-    font-size: 21px;
-    top: 33px;
-    left: 1.8vw;
-    /*font-family: 'Calibri';*/
-}
-
-.email_input_field {
-    position: absolute;
-    height: 40px;
-    width: 13vw;
-    top: 107px;
-    left: 10vw;
-    font-size: 18px;
-    font-family: 'Quicksand';
-    /*font-family: 'Calibri';*/
-}
-
-#email_label {
-    position: absolute;
-    font-size: 21px;
-    top: 113px;
-    left: 1.8vw;
-    /*font-family: 'Calibri';*/
-}
-
-.phone_input_field {
-    position: absolute;
-    height: 40px;
-    width: 13vw;
-    top: 197px;
-    left: 10vw;
-    font-size: 18px;
-    font-family: 'Quicksand';
-    /*font-family: 'Calibri';*/
-}
-
-#phone_label {
-    position: absolute;
-    font-size: 21px;
-    top: 203px;
-    left: 1.8vw;
-    /*font-family: 'Calibri';*/
-}
-
-#your_message_label {
-    position: absolute;
-    top: 300px;
-    font-size: 21px;
-    left: 1.8vw;
-}
-
-.message_box {
-    position: absolute;
-    top: 350px;
-    width: 21.3vw;
-    left: 1.8vw;
-    height: 40vh;
-    font-size: 20px;
-    font-family: 'Quicksand';
-}
-
-#submit_button {
-    position: absolute;
-    background: black;
-    color: white;
-    font-size: 18px;
-    width: 120px;
-    height: 40px;
-    border: solid .25px rgb(78, 78, 78);
-    bottom: 25px;
-    right: 25px;
-    font-family: 'Quicksand';
-    transition: all 1s;
-}
+/*@media screen and (min-width: 2450px) and (max-width: 2560px) {*/
+    body {
+        overflow-x: hidden;
+    }
+    
+    #header_text {
+        position: absolute;
+        font-family: 'Salonica';
+        font-size: 120px;
+        left: 36vw;
+        right: 36vw;
+        top: 21vh;
+    }
+    
+    #design_symbols {
+        position: absolute;
+        font-size: 40px;
+        top: 27vh;
+        left: 46vw;
+    }
+    
+    .caption {
+        position: absolute;
+        top: 37vh;
+        font-size: 33px;
+        width: 50vw;
+        left: 33vw;
+        right: 25vw;
+        font-family: 'Calibri';
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .img1 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 1vw;
+    }
+    
+    .img2 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 53vw;
+    }
+    
+    .img3 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 99vw;
+    }
+    
+    .img4 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 148vw;
+    }
+    
+    .underline_top {
+        position: absolute;
+        height: 0.5px;
+        width: 45vw;
+        background: black;
+        left: 24.5vw;
+        top: 38.5vh;
+    }
+    
+    .underline_bottom {
+        position: absolute;
+        height: 0.5px;
+        width: 45vw;
+        background: black;
+        left: 24.5vw;
+        top: 39vh;
+    }
+    
+    .contact-us__button {
+        position: absolute;
+        top: 10px;
+        width: 190px;
+        height: 70px;
+        font-size: 30px;
+        left: 17.1vw;
+        top: 33vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: block;
+    }
+    
+    .gallery__button {
+        position: absolute;
+        top: 10px;
+        width: 190px;
+        height: 70px;
+        font-size: 30px;
+        right: 22.7vw;
+        top: 33vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: block;
+    }
+    
+    #query_dialog {
+        position: absolute;
+        width: 50vw;
+        height: 30vh;
+        background-color: white;
+        border: none;
+        outline: none;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Calibri';
+    }
+    
+    #dialog_title {
+        position: absolute;
+        font-size: 40px;
+        left: 530px;
+        top: 1px;
+    }
+    
+    #main_contact_title {
+        position: absolute;
+        top: 10px;
+        left: 20vw;
+        font-size: 30px;
+        font-family: 'Quicksand';
+    }
+    
+    #query_container {
+        position: absolute;
+        width: 27vw;
+        height: 78vh;
+        background-color: white;
+        border: solid 0.25px black;
+        top: 7vh;
+        left: 20vw;
+        font-family: 'Quicksand';
+    }
+    
+    .name_input_field {
+        position: absolute;
+        height: 40px;
+        width: 13vw;
+        top: 27px;
+        left: 10vw;
+        font-size: 18px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #name_label {
+        position: absolute;
+        font-size: 21px;
+        top: 33px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    .email_input_field {
+        position: absolute;
+        height: 40px;
+        width: 13vw;
+        top: 107px;
+        left: 10vw;
+        font-size: 18px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #email_label {
+        position: absolute;
+        font-size: 21px;
+        top: 113px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    .phone_input_field {
+        position: absolute;
+        height: 40px;
+        width: 13vw;
+        top: 197px;
+        left: 10vw;
+        font-size: 18px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #phone_label {
+        position: absolute;
+        font-size: 21px;
+        top: 203px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    #your_message_label {
+        position: absolute;
+        top: 300px;
+        font-size: 21px;
+        left: 1.8vw;
+    }
+    
+    .message_box {
+        position: absolute;
+        top: 350px;
+        width: 21.3vw;
+        left: 1.8vw;
+        height: 40vh;
+        font-size: 20px;
+        font-family: 'Quicksand';
+    }
+    
+    #submit_button {
+        position: absolute;
+        background: black;
+        color: white;
+        font-size: 18px;
+        width: 120px;
+        height: 40px;
+        border: solid .25px rgb(78, 78, 78);
+        bottom: 25px;
+        right: 25px;
+        font-family: 'Quicksand';
+        transition: all 1s;
+    }
+/*}*/
 
 ::-webkit-scrollbar {
     display: block;
@@ -256,6 +269,317 @@ body {
     width: 7px;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
+    #parent_divider {
+        position: absolute;
+        top: 20vh;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .contact-us__button {
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        left: 12.4vw;
+        top: 30.3vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: block;
+    }
+    
+    .gallery__button {
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        right: 18.4vw;
+        top: 30.3vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 420px) {
+    body {
+        position: fixed;
+    }
+    
+    .logo {
+        position: sticky;
+        /*right: 300px;*/
+        right: 3vw;
+        left: 0px;
+        scale: 0.5;
+        margin-top: -105px;
+        margin-left: -120px;
+    }
+
+    #main_contact_title {
+        position: absolute;
+        top: -10px;
+        left: 10vw;
+        font-size: 20px;
+        width: 5700px;
+    }
+
+    #query_container {
+        position: absolute;
+        width: 78vw;
+        height: 78vh;
+        background-color: white;
+        border: solid 0.25px black;
+        top: 7vh;
+        left: 10vw;
+        font-family: 'Quicksand';
+    }
+
+    #header_text {
+        position: absolute;
+        font-family: 'Salonica';
+        font-size: 45px;
+        /*left: 3vw;*/
+        left: 15vw;
+        /*right: 10vw;*/
+        width: 100vw;
+        top: 7vh;
+    }
+
+    .caption {
+        position: absolute;
+        top: 15vh;
+        font-size: 15px;
+        width: 100vw;
+        height: 100vh;
+        left: 1.8vw;
+    }
+
+    .underline_top {
+        position: absolute;
+        height: 0.5px;
+        width: 90vw;
+        background: black;
+        left: 1.8vw;
+        top: 15vh;
+    }
+    
+    .underline_bottom {
+        position: absolute;
+        height: 0.5px;
+        width: 90vw;
+        background: black;
+        left: 1.8vw;
+        top: 38vh;
+    }
+
+    #parent_divider {
+        position: absolute;
+        width: 100vw;
+        scale: 0.6;
+        top: 6vh;
+        animation-name: automaticScroll;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+
+    .gallery__button {
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        right: 18.4vw;
+        top: 30.3vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: none;
+    }
+
+    .img1 {
+        position: absolute;
+        box-shadow: none;
+        left: 1.8vw;
+    }
+
+    .img2 {
+        position: absolute;
+        box-shadow: none;
+        left: 700px;
+    }
+
+    .img3 {
+        position: absolute;
+        box-shadow: none;
+        /*display: none;*/
+        left: 1400px;
+    }
+
+    .img4 {
+        position: absolute;
+        box-shadow: none;
+        /*display: none;*/
+        left: 2100px;
+    }
+
+    .contact-us__button {
+        position: absolute;
+        top: 76.5vh;
+        z-index: 3;
+        width: 100px;
+        height: 35px;
+        font-size: 23px;
+        left: 1.8vw;
+        /*display: none;
+        opacity: 0;*/
+        color: white;
+        background: black;
+        outline: none;
+        border: solid black 0.25px;
+        font-family: 'Quicksand';
+        border-radius: 3px;
+        /*display: block;*/
+    }
+
+    .bi-play {
+        position: absolute;
+        scale: 3;
+        /*left: 60vw;
+        top: 78vh;*/
+
+    }
+
+    .bi-stop {
+        position: absolute;
+        scale: 3;
+        /*left: 40vw;
+        top: 78vh;*/
+    }
+    
+    /*.gallery__button {
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        right: 18.4vw;
+        top: 30.3vh;
+        color: black;
+        background: transparent;
+        outline: none;
+        border: solid black 0.25px;
+        display: block;
+    }*/
+
+    .name_input_field {
+        position: absolute;
+        height: 40px;
+        width: 42vw;
+        top: 27px;
+        left: 31vw;
+        font-size: 14px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #name_label {
+        position: absolute;
+        font-size: 21px;
+        top: 33px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    .email_input_field {
+        position: absolute;
+        height: 40px;
+        width: 42vw;
+        top: 107px;
+        left: 31vw;
+        font-size: 14px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #email_label {
+        position: absolute;
+        font-size: 21px;
+        top: 113px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    .phone_input_field {
+        position: absolute;
+        height: 40px;
+        width: 42vw;
+        top: 197px;
+        left: 31vw;
+        font-size: 14px;
+        font-family: 'Quicksand';
+        /*font-family: 'Calibri';*/
+    }
+    
+    #phone_label {
+        position: absolute;
+        font-size: 21px;
+        top: 203px;
+        left: 1.8vw;
+        /*font-family: 'Calibri';*/
+    }
+    
+    #your_message_label {
+        position: absolute;
+        top: 300px;
+        font-size: 21px;
+        left: 1.8vw;
+    }
+    
+    .message_box {
+        position: absolute;
+        top: 350px;
+        width: 71vw;
+        left: 1.8vw;
+        height: 16vh;
+        font-size: 20px;
+        font-family: 'Quicksand';
+    }
+    
+    #submit_button {
+        position: absolute;
+        background: black;
+        color: white;
+        font-size: 15px;
+        width: 85px;
+        height: 40px;
+        border: solid .25px rgb(78, 78, 78);
+        bottom: 23px;
+        right: 25px;
+        font-family: 'Quicksand';
+        transition: all 1s;
+    }
+
+    .logo-in-form {
+        position: absolute;
+        bottom: 23px;
+        width: 25vw;
+        left: 10px;
+    }
+}
+
 @keyframes imagesFlip {
     0% { transform: rotateY(0); }
     100% { transform: rotateY(180deg); }
@@ -264,4 +588,10 @@ body {
 @keyframes scrollBack {
     0% { transform: translateX(-100vw); }
     100% { transform: translateX(0); }
+}
+
+@keyframes automaticScroll {
+    0% { transform: translate(0px); }
+    50% { transform: translate(-570vw); }
+    100% { transform: translate(0px); }
 }
