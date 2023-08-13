@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Z&M | Contact Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p id="main_contact_title">general query:</p>
+
+    <form id="query_container">
+        <input name="__name" class="name_input_field" id="__name_input_field" placeholder="enter your full name...">
+        <label for="__name" id="name_label">name:</label>
+        <input name="__email" class="email_input_field" type="email" id="__email_input_field" placeholder="enter your email address...">
+        <label for="__email" id="email_label">email:</label>
+        <input name="__phone" class="phone_input_field" id="__phone_input_field" placeholder="phone number with the area code">
+        <label for="__phone" id="phone_label">phone:</label>
+        <label id="your_message_label">your message:</label>
+        <textarea class="message_box" id="__message_box"></textarea>
+        <button id="submit_button" onclick="onclick_submit_button(); return false;">submit</button>
+    </form>
+</body>
+</html>
