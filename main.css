@@ -78,6 +78,22 @@
         top: 57vh;
         left: 148vw;
     }
+
+    .img5 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 195vw;
+    }
+
+    .img6 {
+        position: absolute;
+        height: 57vh;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+        top: 57vh;
+        left: 242vw;
+    }
     
     .underline_top {
         position: absolute;
@@ -618,6 +634,6 @@
 
 @keyframes automaticScroll {
     0% { transform: translate(0px); }
-    50% { transform: translate(-700vw); }
+    50% { transform: translate(-980vw); }
     100% { transform: translate(0px); }
 }
