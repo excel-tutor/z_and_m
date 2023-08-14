@@ -435,6 +435,20 @@
         left: 2100px;
     }
 
+    .img5 {
+        position: absolute;
+        box-shadow: none;
+        /*display: none;*/
+        left: 2800px;
+    }
+
+    .img6 {
+        position: absolute;
+        box-shadow: none;
+        /*display: none;*/
+        left: 3500px;
+    }
+
     .contact-us__button {
         position: absolute;
         top: 76.5vh;
@@ -604,6 +618,6 @@
 
 @keyframes automaticScroll {
     0% { transform: translate(0px); }
-    50% { transform: translate(-570vw); }
+    50% { transform: translate(-700vw); }
     100% { transform: translate(0px); }
 }
