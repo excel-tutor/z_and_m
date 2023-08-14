@@ -467,6 +467,7 @@
         scale: 3;
         /*left: 40vw;
         top: 78vh;*/
+        display: none;
     }
     
     /*.gallery__button {
