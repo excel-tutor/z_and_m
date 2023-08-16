@@ -140,7 +140,7 @@
         border: solid black 0.25px;
         display: block;*/
         position: absolute;
-        top: 110vh;
+        top: 113vh;
         z-index: 70;
         width: 190px;
         height: 70px;
@@ -309,7 +309,7 @@
     }
 
     #second_span {
-        position: absolute; font-size: 20px; top: 124vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 170px;
+        position: absolute; font-size: 20px; top: 118vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 170px;
     }
 /*}*/
 
