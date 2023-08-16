@@ -55,6 +55,10 @@
         font-weight: 300;
         text-align: left;
     }
+
+#parent_divider {
+    width: fit-content; height: fit-content; background-color: transparent; position: absolute; top: -2.7vh;
+}
     
     .img1 {
         position: absolute;
