@@ -46,9 +46,9 @@
         font-weight: 300;
         text-align: left;*/
         position: absolute;
-        top: 40vh;
+        top: 33vh;
         font-size: 33px;
-        width: 45vw;
+        width: 70vw;
         left: 24.5vw;
         right: 25vw;
         font-family: 'Calibri';
@@ -301,11 +301,11 @@
     }
 
     #footer {
-        position: absolute; font-size: 40px; top: 120vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 78px;
+        position: absolute; font-size: 40px; top: 120vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 40px;
     }
 
     #second_span {
-        position: absolute; font-size: 20px; top: 124vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 40px;
+        position: absolute; font-size: 20px; top: 124vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 178px;
     }
 /*}*/
 
