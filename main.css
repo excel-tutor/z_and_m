@@ -415,7 +415,7 @@
         position: absolute;
         top: 15vh;
         font-size: 15px;
-        width: 100vw;
+        width: 90vw;
         height: 100vh;
         left: 1.8vw;
     }
@@ -659,6 +659,13 @@
     color: black; 
     text-align: center;
     margin-top: 0px;
+    }
+    #footer {
+        position: absolute; font-size: 10px; top: 87vh; font-family: 'Quicksand Light'; left: 10vw; color: black; text-align: center;
+    }
+
+    #second_span {
+        position: absolute; font-size: 20px; top: 124vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content;
     }
 }
 
