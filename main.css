@@ -305,7 +305,7 @@
     }
 
     #footer {
-        position: absolute; font-size: 40px; top: 120vh; font-family: 'Quicksand Light'; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 270px;
+        position: absolute; font-size: 40px; top: 110vh; font-family: 'Quicksand'; font-weight: 700; left: 33vw; color: black; text-align: center; width: fit-content; margin-bottom: 270px;
     }
 
     #second_span {
